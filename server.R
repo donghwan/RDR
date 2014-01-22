@@ -1,7 +1,6 @@
 library(shiny)
 library(rdr)
 
-# Define server logic required to plot various variables against mpg
 shinyServer(function(input, output) {
 
 output$rdr_text<- renderPrint({
